@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>t617.cn</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<link href="css/fullscreenDemo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="block-container">
+	    <div class="block">
+	    	<header class="htmleaf-header">
+				<h1>t617<span>你若盛开，清风自来</span></h1>
+				<div class="htmleaf-links">
+					<a class="htmleaf-icon icon-htmleaf-home-outline" href="http://t617.cn/" title="t617" target="_blank"><span> 我的主页</span></a>
+					<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="http://www.htmleaf.com/html5/yinpinheshipin/201511012731.html" title="返回" target="_blank"><span> 返回</span></a>
+				</div>
+				<div class="htmleaf-demo center">
+          <a href="http://t617.cn/blog/" class="current">t617.cn</a>
+				  <a href="https://blog.csdn.net/t6_17">CSDN</a>
+				  <a href="https://github.com/t617">Github</a>
+				</div>
+			</header>
+	    </div>
+	</div>
+	
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="dist/vidbg.js"></script>
+	<script type="text/javascript">
+    jQuery(function($){
+          $('body').vidbg({
+              'mp4': 'media/mp4_video.mp4',
+              'webm': 'media/webm_video.webm',
+              'poster': 'media/fallback.jpg',
+          }, {
+            // Options
+            muted: true,
+            loop: true,
+  			overlay: true,
+          });
+      });
+  </script>
+</body>
+</html>
